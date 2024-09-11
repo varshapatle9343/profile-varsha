@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        .profile-container {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            max-width: 800px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            border-radius: 8px;
+        }
+        .skills, .hobbies {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .skills li, .hobbies li {
+            margin: 10px 0;
+        }
+        .skills img, .hobbies img {
+            margin-top: 10px;
+        }
+        .skill-bar {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            height: 20px;
+            margin-top: 5px;
+        }
+        .skill-bar div {
+            height: 100%;
+            background-color: #007BFF;
+            width: 0%; /* Adjust width for skill level */
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Profile</h1>
+        <hr><hr/>
+        <img src="roshani.jpeg" alt="My photo" title="nechar love" width="200">
+    </header>
+    
+    <div class="profile-container">
+        <h1>Varsha Patle</h1>
+        <p>Computer Science</p>
+        <p>College Name: Takshshila Institute of Engineering & Technology College Jabalpur</p>
+        <p>Year: 3rd Year</p>
+        
+        <div class="contact-info">
+            <p>Email: <a href="mailto:varshapatle0207@gmail.com">varshapatle0207@gmail.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">91-9343168926</a></p>
+        </div>
+    </div>
+
+    <div class="profile-container">
+        <h2>Location</h2>
+        <p>Jabalpur, India</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151024.5665364595!2d79.93067817998615!3d23.164573471645136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd8a25b46a85b0f%3A0x876d5395fa1e08e2!2sJabalpur%2C%20Madhya%20Pradesh%2C%20India!5e0!3m2!1sen!2sus!4v1634886831157!5m2!1sen!2sus"
+            allowfullscreen
+            loading="lazy">
+        </iframe>
+    </div>
+
+    <div class="profile-container">
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>
+                <strong>HTML/CSS</strong>
+                <div class="skill-bar">
+                    <div style="width: 90%;"></div> <!-- Adjust width as needed -->
+                </div>
+            </li>
+            <li>
+                <strong>JavaScript</strong>
+                <div class="skill-bar">
+                    <div style="width: 70%;"></div> <!-- Adjust width as needed -->
+                </div>
+            </li>
+            <li>
+                <strong>C/C++</strong>
+                <div class="skill-bar">
+                    <div style="width: 60%;"></div> <!-- Adjust width as needed -->
+                </div>
+            </li>
+        </ul>
+        <img src="css.png" alt="CSS" title="CSS" width="200">
+        <img src="c c++.jpeg" alt="C/C++" title="C/C++" width="180">
+    </div>
+
+    <div class="profile-container">
+        <h2>Hobbies</h2>
+        <ul class="hobbies">
+            <li><i class="fas fa-book"></i> Reading</li>
+            <li><i class="fas fa-music"></i> Music</li>
+            <li><i class="fas fa-cooking"></i> Cooking</li>
+        </ul>
+        <img src="reding.jpeg" alt="Reading" title="Reading" width="200">
+        <img src="music.jpeg" alt="Music" title="Music" width="200">
+        <img src="cooking1.jpg" alt="Cooking" title="Cooking" width="200">
+    </div>
+</body>
+</html>
